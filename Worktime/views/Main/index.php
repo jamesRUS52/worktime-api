@@ -24,3 +24,6 @@
 
 
 <h2>Free for use</h2>
+
+<h2>Contacts</h2>
+To send issue please use <a href="https://github.com/jamesRUS52/worktime" target="blank">github</a>
