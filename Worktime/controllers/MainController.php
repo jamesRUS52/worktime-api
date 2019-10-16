@@ -15,6 +15,8 @@ class MainController extends AppController {
     //put your code here
     public function indexAction()
     {
-        
+        //throw new \Worktime\Exception("qwe",[$_SERVER]);
+        $log = \jamesRUS52\phpfrm\Log::getInstance();
+        $log->err("test");
     }
 }
