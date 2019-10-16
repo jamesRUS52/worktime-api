@@ -1,0 +1,11 @@
+nbproject
+config/app.env
+config/log_app.php
+config/log_service.php
+config/init.php
+tmp
+logs
+### Composer ###
+composer.phar
+vendor/
+composer.lock

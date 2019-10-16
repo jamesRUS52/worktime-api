@@ -1,0 +1,11 @@
+{
+    "autoload" : {
+        "psr-4" : {
+            "Worktime\\": "Worktime"
+        }
+    },
+    "require" : {
+        "james.rus52/phpfrm": "^1.5",
+        "phpmailer/phpmailer": "~6.0"
+    }
+}
