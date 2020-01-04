@@ -1,5 +1,9 @@
 # Worktime
 API for worktime and sla functions
+![](https://github.com/jamesRUS52/worktime-api/workflows/Tests/badge.svg)
+
+## Public API endpoint 
+https://worktime.james52.ru/api/v1/
 
 ## API Documentaion
 https://app.swaggerhub.com/apis-docs/jamesRUS52/worktime/1.0.0

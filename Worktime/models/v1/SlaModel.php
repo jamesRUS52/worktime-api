@@ -30,7 +30,6 @@ class SlaModel extends AppModel {
     {
         $startDateTime = $this->params['startperiod']; 
         $endDateTime = $this->params['endperiod'];
-        
         $response  = Calendar::WorkTime($this->params['calendar'],$startDateTime,$endDateTime, $this->params['unit']);
         $work = $response['time'];
         $nonserve = 0;
