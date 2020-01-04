@@ -23,4 +23,4 @@ jobs:
     #  run: ./vendor/bin/phpunit --bootstrap vendor/autoload.php tests/*
 
     - name: API tests
-      run: curl https://worktime-test.james52.ru/api/v1/calendar/list1
+      run: bash tests/api-tests.sh
