@@ -1,6 +1,6 @@
 #!/bin/bash
 
-for url in 'calendar/list'
+for url in 'calendar/list1'
 do
   echo $url
   status=`curl -s -w statuscode:%{http_code} https://worktime-test.james52.ru/api/v1/$url | tail -1|sed 's/^.*statuscode\://'`
