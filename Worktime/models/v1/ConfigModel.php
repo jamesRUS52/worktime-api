@@ -49,7 +49,7 @@ class ConfigModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
 
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
     public function getConfig()
@@ -60,7 +60,7 @@ class ConfigModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
 
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
 
     public function clearConfig()

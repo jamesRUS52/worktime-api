@@ -31,7 +31,7 @@ class MainModel extends AppModel {
         $output["apicode"]=200;
         $output["apimessage"]="OK";
 
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
     public function datetimeAction()
@@ -45,7 +45,7 @@ class MainModel extends AppModel {
         $output["apicode"]=200;
         $output["apimessage"]="OK";
 
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
 }

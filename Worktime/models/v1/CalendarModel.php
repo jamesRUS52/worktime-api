@@ -87,7 +87,7 @@ class CalendarModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
         
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
     
@@ -104,7 +104,7 @@ class CalendarModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
 
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
     public function getDateTime()
@@ -119,7 +119,7 @@ class CalendarModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
 
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
     public function getCalendar()
@@ -145,7 +145,7 @@ class CalendarModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
         
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
     public function workdaysAction()
@@ -174,7 +174,7 @@ class CalendarModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
         
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
     public function worktimesAction()
@@ -190,7 +190,7 @@ class CalendarModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
         
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
     
     
@@ -255,6 +255,6 @@ class CalendarModel extends AppModel {
         $output["status"]["code"]=200;
         $output["status"]["message"]="OK";
         
-        print json_encode($output, JSON_NUMERIC_CHECK | JSON_PRETTY_PRINT);
+        print json_encode($output, JSON_NUMERIC_CHECK);
     }
 }
