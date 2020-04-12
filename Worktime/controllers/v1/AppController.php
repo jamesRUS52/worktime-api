@@ -29,7 +29,7 @@ class AppController extends Controller {
         if ($requestbody !== null)
             $this->params['requestbody'] = $requestbody;
 
-        if (isset($_SERVER['HTTP_X_CONFIG']))
+        if (isset($_SERVER['HTTP_X_CONFIG']) && !empty($_SERVER['HTTP_X_CONFIG']))
         {
             $config_param = json_decode($_SERVER['HTTP_X_CONFIG'], true);
             $conf->setConfig($config_param);
